@@ -1,38 +1,18 @@
-# create-svelte
+# Web Dev Preschool
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Do you want to learn front-end web development? Well aside from learning HTML, CSS, JS and a JavaScript Framework - you need to learn other more basic tools. If you can set up your environment and use basic tools like the terminal, learning development will be easier.
 
-## Creating a project
+## Things Covered
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte
-
-# create a new project in my-app
-npm init svelte my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- Visual Studio Code
+  - extensions
+    - prettier
+    - live server
+    - auto rename tag
+  - keyboard shortcuts
+  - built in terminal
+- Git & GitHub
+- Terminal
+  - files and folders
+  - basic navigation and file actions
+- Node & NPM
