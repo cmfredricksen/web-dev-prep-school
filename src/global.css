@@ -1,5 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Inconsolata:wght@300;400&family=Montserrat&display=swap');
+
+:root {
+    --font-heading: "Fascinate", monospace;
+    --font-text: "Montserrat", sans-serif;
+    --font-accent: "Inconsolata", monospace;
+
+    --clr-black: #000;
+    --clr-white: #fff;
+    --clr-dark: #1f0124;
+    --clr-lt: #dd03ff;
+    --clr-accent: #020235;
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(var(--clr-dark), var(--clr-accent));
+    background-repeat: no-repeat;
+    color: var(--clr-white);
+    height: 100vh;
+    padding: 0 2rem;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    color: var(--clr-lt);
+}
+
+p {
+    font-family: var(--font-text);
+    font-size: 1.5rem;
+}
+
+a, li {
+    font-family: var(--font-accent);
 }
