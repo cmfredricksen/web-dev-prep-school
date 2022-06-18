@@ -9,4 +9,7 @@
         text-align: center;
         padding: 3rem 0;
     }
+    p {
+        color: var(--clr-lt);
+    }
 </style>
