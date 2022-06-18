@@ -23,12 +23,11 @@
     export let lessons;
 </script>
 
-List of Lessons
+
 
 <div class="list-box">
-
     {#each lessons as {path, metadata: {title, date}}} 
-    <a href={`lessons/${path.replace(".md", "")}`}>{title}</a>
+        <a href={`lessons/${path.replace(".md", "")}`}>{title}</a>
     {/each}
 </div>
 
@@ -36,8 +35,8 @@ List of Lessons
     .list-box {
         display: flex;
         flex-direction: column;
-
     }
+
     a {
         padding: 1rem;
     }

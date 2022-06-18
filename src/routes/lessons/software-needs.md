@@ -1,10 +1,9 @@
 ---
 title: Software Needs
 date: 2022-06-17
+layout: Layout.svelte
 ---
 
-# {title}
-{date}
 
 There are some basic pieces of software you will need to develop websites. So the first thing you should do is go download and install the listed programs.
 

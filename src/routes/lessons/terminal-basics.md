@@ -3,7 +3,6 @@ title: Terminal Basics
 date: 2022-06-17
 ---
 
-# {title}
 
 The terminal, shell or command prompt is the best tool to become proficient in. You will gain a good understanding of the structure of your files and how to move them, copy them, open them, list them, create them etc.
 

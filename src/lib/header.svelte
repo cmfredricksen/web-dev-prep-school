@@ -3,7 +3,7 @@
 </script>
 
 <header>
-    <h1>Web Dev Preschool</h1>
+    <h1>Web Dev Prep School</h1>
     <Nav />
 </header>
 

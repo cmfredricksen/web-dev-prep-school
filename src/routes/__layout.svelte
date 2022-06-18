@@ -7,6 +7,14 @@
 
 <Header />
 
-<slot></slot>
+<div class="wrapper">
+    <slot></slot>
+</div>
 
 <Footer />
+
+<style>
+    .wrapper {
+        padding: 0 3rem;
+    }
+</style>

@@ -8,7 +8,8 @@ const config = defineConfig({
 	},
 
 	remarkPlugins: [],
-	rehypePlugins: []
+	rehypePlugins: [],
+	layout: "src/routes/lessons/Layout.svelte"
 });
 
 export default config;
