@@ -7,6 +7,18 @@
         {
             title: "Lessons",
             path: "/lessons"
+        },
+        {
+            title: "Api",
+            path: "/api-try"
+        },
+        {
+            title: "API SSR",
+            path: "/api-try-ssr"
+        },
+        {
+            title: "Typicode",
+            path: "/typicode"
         }
     ]
 </script>
