@@ -1,4 +1,4 @@
-# Web Dev Preschool
+# Web Dev Prep School
 
 Do you want to learn front-end web development? Well aside from learning HTML, CSS, JS and a JavaScript Framework - you need to learn other more basic tools. If you can set up your environment and use basic tools like the terminal, learning development will be easier.
 
