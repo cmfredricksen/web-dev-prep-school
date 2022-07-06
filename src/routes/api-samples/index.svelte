@@ -1,4 +1,5 @@
 <script>
+    import Generic from "$lib/components/generic-load.svelte";
     const links = [
         {
             title: "API try",
@@ -45,6 +46,12 @@
         </li>
     {/each}
 </nav>
+
+<div class="code-block">
+    <h3>Generic Load Function as used in SvelteKit</h3>
+
+    <Generic />
+</div>
 <a href="http://localhost:3000/api-samples">Back to List</a>
 
 <style>

@@ -1,6 +1,7 @@
 <script>
     import Props from "$lib/props.svelte";
-    import Slots from "$lib/slots.svelte"
+    import Slots from "$lib/slots.svelte";
+    import Generic from "$lib/components/generic-load.svelte"
     let count = 1;
 
     const doubleCount = () => count += 2;
@@ -30,6 +31,8 @@
 <p>This website is a place for me to learn, experiment and practice several skills. It is here where I will learn how to make a blog or a school website using MarkDown and SvelteKit. I will also review using the terminal and VSCode. I am currently practising fetching data with APIs, using asynchronous JavaScript. I have just started learning how to use a writable in SvelteKit to show state across components.</p>
 
 <p>There is so much more I want to learn and try, and here is where I will do it. You will find pages that make little sense, those are experiments in action. As I begin to understand how things work I will add instructions and explanations.</p>
+
+<h4>The CSS is an ongoing art project.</h4>
 
 <h3>Enjoy!</h3>
 
@@ -62,6 +65,11 @@
 <Slots>
     <p slot="header">Another Slot</p>
 </Slots>
+
+<h3>Generic API</h3>
+<p>for more api information and some examples see: <a href="/api-samples">API Samples</a></p>
+
+<Generic />
 
 
 <style>
