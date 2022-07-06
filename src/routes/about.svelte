@@ -23,6 +23,16 @@
     
 </script>
 
+<a href="https://github.com/cmfredricksen/web-dev-prep-school">GitHub repository for this project</a>
+
+<h2>About Dev Prep School</h2>
+
+<p>This website is a place for me to learn, experiment and practice several skills. It is here where I will learn how to make a blog or a school website using MarkDown and SvelteKit. I will also review using the terminal and VSCode. I am currently practising fetching data with APIs, using asynchronous JavaScript. I have just started learning how to use a writable in SvelteKit to show state across components.</p>
+
+<p>There is so much more I want to learn and try, and here is where I will do it. You will find pages that make little sense, those are experiments in action. As I begin to understand how things work I will add instructions and explanations.</p>
+
+<h3>Enjoy!</h3>
+
 <h1>Click the button to Double the Count</h1>
 
 <h2>{count}</h2>

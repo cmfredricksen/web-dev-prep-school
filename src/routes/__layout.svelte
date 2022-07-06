@@ -15,6 +15,10 @@
 
 <style>
     .wrapper {
-        padding: 0 3rem;
+        padding: 3rem;
+        width: 70vw;
+        margin: 0 auto;
+        border-left: 2px solid var(--clr-white-fade);
+        border-right: 2px solid var(--clr-white-fade);
     }
 </style>

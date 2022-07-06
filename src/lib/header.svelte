@@ -3,7 +3,11 @@
 </script>
 
 <header>
-    <h1>Web Dev Prep School</h1>
+    <a href="/">
+        <h1>
+            Web Dev Prep School
+        </h1>
+        </a>
     <Nav />
 </header>
 
@@ -13,5 +17,10 @@
         justify-content: space-between;
         padding: 2rem 1rem;
         align-items: baseline;
+        border-bottom: 1px solid var(--clr-white-fade);
+    }
+
+    h1:hover {
+        color: var(--clr-white-fade);
     }
 </style>

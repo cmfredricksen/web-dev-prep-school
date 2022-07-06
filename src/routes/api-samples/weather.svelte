@@ -63,7 +63,7 @@
     .weather-box {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
         margin: 2rem 0;
 
     }
@@ -82,6 +82,11 @@
         width: 70%;
         margin: 2rem auto;
         border: none;
+    }
+
+    li {
+        margin: .5rem 0;
+        padding: 0;
     }
 
     p, h2 {
