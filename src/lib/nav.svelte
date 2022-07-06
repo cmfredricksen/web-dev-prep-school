@@ -9,16 +9,12 @@
             path: "/lessons"
         },
         {
-            title: "Api",
-            path: "/api-try"
+            title: "Api Samples",
+            path: "/api-samples"
         },
         {
-            title: "API SSR",
-            path: "/api-try-ssr"
-        },
-        {
-            title: "Typicode",
-            path: "/typicode"
+            title: "About",
+            path: "/about"
         }
     ]
 </script>

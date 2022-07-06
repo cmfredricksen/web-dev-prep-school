@@ -22,3 +22,4 @@
         <p>{body}</p>
     {/if}
 {/each}
+<a href="http://localhost:3000/api-samples">Back to List</a>

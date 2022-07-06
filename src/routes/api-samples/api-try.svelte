@@ -17,4 +17,5 @@
 
 <h2>{post.title}</h2>
 <p>{post.body}</p>
+<a href="http://localhost:3000/api-samples">Back to List</a>
 

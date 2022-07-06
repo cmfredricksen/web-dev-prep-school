@@ -24,6 +24,7 @@
     {/if}
     {/each}
 </div>
+<a href="http://localhost:3000/api-samples">Back to List</a>
 
 <style>
     .album {
