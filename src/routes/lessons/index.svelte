@@ -23,7 +23,7 @@
     export let lessons;
 </script>
 
-
+<h2>Lessons</h2>
 
 <div class="list-box">
     {#each lessons as {path, metadata: {title, date}}} 

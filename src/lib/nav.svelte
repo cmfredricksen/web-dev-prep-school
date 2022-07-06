@@ -1,4 +1,6 @@
 <script>
+    import { page } from "$app/stores"
+
     const links = [
         {
             title: "Home",
@@ -21,7 +23,7 @@
 
 <nav>
     {#each links as {path, title}} 
-        <a href={path}>{title}</a>
+        <a class:active={$page.url.pathname === path} href={path}>{title}</a>
     {/each}
 </nav>
 
@@ -31,5 +33,16 @@
     }
     a {
         margin: 0 1rem;
+        color: var(--clr-white);
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: var(--clr-lt);
+    }
+
+    .active {
+        color: var(--clr-lt);
+        text-decoration: var(--clr-lt) wavy underline;
     }
 </style>

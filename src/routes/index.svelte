@@ -1,10 +1,10 @@
-<p>Welcome to School!</p>
+<h2>Welcome to DEV PREP!</h2>
+
 
 <h2>
     I will add links as I add pages about these topics. May you find them helpful!
 </h2>
 
-<h3>List of Subjects</h3>
 <ul>
     <li>Windows 11</li>
     <li>VSCode</li>
@@ -35,5 +35,15 @@
 <style>
     h2 {
         margin: 2rem 0;
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    li {
+        list-style: none;
+        border: 1px solid var(--clr-lt);
     }
 </style>

@@ -1,4 +1,5 @@
 <script>
+    
     import Generic from "$lib/components/generic-load.svelte";
     const links = [
         {
@@ -35,7 +36,10 @@
 </script>
 
 <section class="intro">
-    On this page are links to pages I made using data I retrieved from the web. In SvelteKit it is pretty straightforward to grab information and then iterate through it and finally display it on the page.
+    <h2>API Samples</h2>
+    <p>
+        On this page are links to pages I made using data I retrieved from the web. In SvelteKit it is pretty straightforward to grab information and then iterate through it and finally display it on the page. At this time the <a href="/api-samples/weather">weather API</a> has an example of how I used the load function to get the weather forecast for where I live. More to come!
+    </p>
 </section>
 
 <nav>
@@ -48,7 +52,7 @@
 </nav>
 
 <div class="code-block">
-    <h3>Generic Load Function as used in SvelteKit</h3>
+    <h2>Generic Load Function as used in SvelteKit:</h2>
 
     <Generic />
 </div>
@@ -58,6 +62,7 @@
     nav {
         display: flex;
         /* flex-direction: column; */
+        margin: 1rem 0 4rem;
     }
     li {
         padding: .5rem 0;

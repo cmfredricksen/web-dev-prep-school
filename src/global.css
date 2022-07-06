@@ -53,6 +53,14 @@ a:hover {
     color: var(--clr-lt);
 }
 
+p a {
+    color: var(--clr-lt);
+}
+
+p a:hover {
+    color: var(--clr-white-fade);
+}
+
 li {
     list-style-position: inside;
     padding: 1rem;

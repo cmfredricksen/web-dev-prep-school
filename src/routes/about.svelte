@@ -85,7 +85,4 @@
         color: white;
         padding: 1rem;
     }
-    p {
-        text-align: center;
-    }
 </style>
